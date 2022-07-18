@@ -45,7 +45,7 @@
   }
   .is-size-7{
     font-size: 0.8rem;
-    align-content: center;
+    padding-top: 0.5rem;
   }
   .image.is-24x24 {
     display: inline;
