@@ -24,9 +24,9 @@ const submissionComponent = {
                 </div>
                 <div class="flex-shrink-0">
                     <span class="icon is-small ">
-                        <i class="row fa fa-chevron-up" v-on:click="upvote(submission.id)"></i>
+                        <i class="row fa fa-chevron-up" @click="upvote(submission.id)"></i>
                         <strong class="row text-primary">{{submission.votes}}</strong>
-                        <i class="row fa fa-chevron-down" v-on:click="downvote(submission.id)"></i>
+                        <i class="row fa fa-chevron-down" @click="downvote(submission.id)"></i>
                     </span>
                 </div>
             </div>
