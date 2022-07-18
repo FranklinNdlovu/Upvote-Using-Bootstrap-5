@@ -1,0 +1,55 @@
+/* Miscellaneous Styles */
+
+.dividing-header {
+    margin-top: 1em;
+    margin-bottom: 2em;
+  }
+  
+  .section {
+    padding: 2rem 0.5rem;
+  }
+  
+  .media {
+    max-width: 600px;
+    margin: 0 auto;
+    border: 1px solid #e6e7e9;
+    padding: 1em 1.5em 0.5em 1.5em;
+    border-radius: 0.3em;
+  }
+  .media-right {
+    padding-left: 1.5em;
+  }
+  
+  .media + .media {
+    margin-top: 1.5rem;
+  }
+  
+  .blue-border {
+    border: 1px solid #3373dc !important;
+  }
+  
+  .tag {
+    font-size: 0.6rem !important;
+  }
+  
+  .icon {
+    cursor: pointer;
+  }
+  .is-64x64 {
+    width: 64px;
+    height: 64px;
+  }
+  .is-24x24{
+    width: 24px;
+    height: 24px;
+  }
+  .is-size-7{
+    font-size: 0.8rem;
+    align-content: center;
+  }
+  .image.is-24x24 {
+    display: inline;
+    position: relative;
+    top: 5px;
+    border-radius: 20px;
+  }
